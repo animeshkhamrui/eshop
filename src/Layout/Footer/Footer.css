@@ -1,0 +1,19 @@
+.mainBox{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+
+}
+.mainBoxli{
+    list-style: none;
+}
+.mainBoxlili{
+    text-decoration: none;
+    color: white;
+}
+.para{
+    color: white;
+}

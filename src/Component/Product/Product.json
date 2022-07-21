@@ -1,0 +1,415 @@
+{
+  "Electronic_Product": [
+    {
+      "Product_name": "Laptop",
+      "Product_id": "L1",
+      "Sub_product": [
+        {
+          "Company": "HP",
+          "Id": "L11",
+          "Price": "Rs. 35000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Laptop/hp.jpg"
+        },
+        {
+          "Company": "Lenovo",
+          "Id": "L12",
+          "Price": "Rs. 32000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Laptop/lenovo.jpg"
+        },
+        {
+          "Company": "Apple",
+          "Id": "L13",
+          "Price": "Rs. 80000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Laptop/apple.jfif"
+        },
+        {
+          "Company": "Samsung",
+          "Id": "L14",
+          "Price": "Rs. 45000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Laptop/samsung.jfif"
+        },
+        {
+          "Company": "Acer",
+          "Id": "L15",
+          "Price": "Rs. 28000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Laptop/acer.jfif"
+        },
+        {
+          "Company": "Dell",
+          "Id": "L16",
+          "Price": "Rs. 34000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Laptop/dell.jfif"
+        },
+        {
+          "Company": "Asus",
+          "Id": "L17",
+          "Price": "Rs. 42000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Laptop/asus.jpg"
+        }
+      ]
+    },
+    {
+      "Product_name": "Mobile",
+      "Product_id": "M1",
+      "Sub_product": [
+        {
+          "Company": "Samsung",
+          "Id": "M11",
+          "Price": "Rs. 30000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/samsung.png"
+        },
+        {
+          "Company": "Apple",
+          "Id": "M12",
+          "Price": "Rs. 80000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/apple.jfif"
+        },
+        {
+          "Company": "Redmi",
+          "Id": "M13",
+          "Price": "Rs.  26000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/redmi.png"
+        },
+        {
+          "Company": "Oppo",
+          "Id": "M14",
+          "Price": "Rs. 18000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/oppo.jpg"
+        },
+        {
+          "Company": "Vivo",
+          "Id": "M15",
+          "Price": "Rs. 25000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/vivo.jfif"
+        },
+        {
+          "Company": "Nokia",
+          "Id": "M16",
+          "Price": "Rs. 15000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/nokia.jpg"
+        },
+        {
+          "Company": "OnePlus",
+          "Id": "M17",
+          "Price": "Rs. 45000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/oneplus.png"
+        },
+        {
+          "Company": "Lenovo",
+          "Id": "M18",
+          "Price": "Rs. 13000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/lenovo.jpg"
+        },
+        {
+          "Company": "Huawei",
+          "Id": "M19",
+          "Price": "Rs. 18000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Mobile/huawei.webp"
+        }
+      ]
+    },
+    {
+      "Product_name": "Smart Watch",
+      "Product_id": "SW1",
+      "Sub_product": [
+        {
+          "Company": "Samsung",
+          "Id": "SW11",
+          "Price": "Rs. 34000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/SmartWatch/samsung.jfif"
+        },
+        {
+          "Company": "Fitbit",
+          "Id": "SW12",
+          "Price": "Rs. 1200/-",
+          "Desc": "",
+          "Img": "../../../../product_images/SmartWatch/fitbit.jfif"
+        },
+        {
+          "Company": "Apple",
+          "Id": "SW13",
+          "Price": "Rs. 44000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/SmartWatch/apple.jpg"
+        },
+        {
+          "Company": "MI",
+          "Id": "SW14",
+          "Price": "Rs. 2000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/SmartWatch/mi.jfif"
+        },
+        {
+          "Company": "boAt",
+          "Id": "SW15",
+          "Price": "Rs. 3000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/SmartWatch/boat.jpg"
+        },
+        {
+          "Company": "Noise",
+          "Id": "SW16",
+          "Price": "Rs. 999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/SmartWatch/noise.jpg"
+        },
+        {
+          "Company": "OnePlus",
+          "Id": "SW17",
+          "Price": "Rs. 4999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/SmartWatch/oneplus.jpg"
+        }
+      ]
+    },
+    {
+      "Product_name": "Headphone",
+      "Product_id": "H1",
+      "Sub_product": [
+        {
+          "Company": "Sony",
+          "Id": "H11",
+          "Price": "Rs. 42000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Headphone/sony.jfif"
+        },
+        {
+          "Company": "JBL",
+          "Id": "H12",
+          "Price": "Rs. 3500/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Headphone/jbl.jfif"
+        },
+        {
+          "Company": "Apple",
+          "Id": "H13",
+          "Price": "Rs.  26000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Headphone/apple.png"
+        },
+        {
+          "Company": "AKG",
+          "Id": "H14",
+          "Price": "Rs. 1299/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Headphone/akg.jfif"
+        },
+        {
+          "Company": "boAt",
+          "Id": "H15",
+          "Price": "Rs. 1999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Headphone/boat.jpg"
+        }
+      ]
+    },
+    {
+      "Product_name": "Speaker",
+      "Product_id": "S1",
+      "Sub_product": [
+        {
+          "Company": "boAt",
+          "Id": "S11",
+          "Price": "Rs. 2999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Speaker/boat.jpg"
+        },
+        {
+          "Company": "JBL",
+          "Id": "S12",
+          "Price": "Rs. 3999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Speaker/jbl.jfif"
+        },
+        {
+          "Company": "TWS",
+          "Id": "S13",
+          "Price": "Rs. 1699/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Speaker/tws.jfif"
+        },
+        {
+          "Company": "Sony",
+          "Id": "S14",
+          "Price": "Rs. 24999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Speaker/sony.jpg"
+        },
+        {
+          "Company": "Zebronics",
+          "Id": "S15",
+          "Price": "Rs. 999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Speaker/zebronics.jpeg"
+        }
+      ]
+    },
+    {
+      "Product_name": "Tv",
+      "Product_id": "TV1",
+      "Sub_product": [
+        {
+          "Company": "Sony",
+          "Id": "TV11",
+          "Price": "Rs. 42990/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tv/sony.jfif"
+        },
+        {
+          "Company": "LG",
+          "Id": "TV12",
+          "Price": "Rs. 35999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tv/lg.jpg"
+        },
+        {
+          "Company": "Samsung",
+          "Id": "TV13",
+          "Price": "Rs. 45999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tv/samsung.webp"
+        },
+        {
+          "Company": "MI",
+          "Id": "TV14",
+          "Price": "Rs. 22990/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tv/mi.webp"
+        },
+        {
+          "Company": "OnePlus",
+          "Id": "TV15",
+          "Price": "Rs. 14490/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tv/oneplus.jfif"
+        },
+        {
+          "Company": "Redmi",
+          "Id": "TV16",
+          "Price": "Rs. 23999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tv/redmi.jfif"
+        },
+        {
+          "Company": "Toshiba",
+          "Id": "TV17",
+          "Price": "Rs. 22990/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tv/toshiba.jfif"
+        }
+      ]
+    },
+    {
+      "Product_name": "Camera",
+      "Product_id": "C1",
+      "Sub_product": [
+        {
+          "Company": "Sony",
+          "Id": "C11",
+          "Price": "Rs. 45999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Camera/sony.jfif"
+        },
+        {
+          "Company": "Nikon",
+          "Id": "C12",
+          "Price": "Rs. 35000/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Camera/nikon.jfif"
+        },
+        {
+          "Company": "Canon",
+          "Id": "C13",
+          "Price": "Rs. 55999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Camera/canon.jfif"
+        }
+      ]
+    },
+    {
+      "Product_name": "Tablet",
+      "Product_id": "T1",
+      "Sub_product": [
+        {
+          "Company": "Samsung",
+          "Id": "T11",
+          "Price": "Rs. 14999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tablet/samsung.jfif"
+        },
+        {
+          "Company": "Apple",
+          "Id": "T12",
+          "Price": "Rs. 49999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Tablet/apple.jpeg"
+        }
+      ]
+    },
+    {
+      "Product_name": "Airpod",
+      "Product_id": "A1",
+      "Sub_product": [
+        {
+          "Company": "Samsung",
+          "Id": "A11",
+          "Price": "Rs. 12999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Airpod/samsung.jpg"
+        },
+        {
+          "Company": "Apple",
+          "Id": "A12",
+          "Price": "Rs. 34999/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Airpod/apple.jpeg"
+        },
+        {
+          "Company": "OnePlus",
+          "Id": "A13",
+          "Price": "Rs. 18990/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Airpod/oneplus.jpg"
+        },
+        {
+          "Company": "boAt",
+          "Id": "A14",
+          "Price": "Rs. 1399/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Airpod/boat.jfif"
+        },
+        {
+          "Company": "Noise",
+          "Id": "A15",
+          "Price": "Rs. 1799/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Airpod/noise.jpg"
+        },
+        {
+          "Company": "pTron",
+          "Id": "A16",
+          "Price": "Rs. 1099/-",
+          "Desc": "",
+          "Img": "../../../../product_images/Airpod/ptorn.jfif"
+        }
+      ]
+    }
+  ]
+}

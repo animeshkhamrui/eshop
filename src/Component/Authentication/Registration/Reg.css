@@ -1,0 +1,26 @@
+.regform{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.50);
+    padding-top: 30px;
+    padding-left: 130px;
+}
+.reginput{
+    width: 73%;
+    border-style: none;
+    border-bottom: solid black 0.3px;
+    outline: none;
+}
+.reginput1{
+    width: 73.5%;
+    border-style: none;
+    background-color: rgb(167, 85, 243);
+    color: white;
+    margin-top: 20px;
+}
+.reginput::placeholder{
+    text-align: center;
+}
