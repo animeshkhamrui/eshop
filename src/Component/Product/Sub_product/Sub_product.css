@@ -1,3 +1,10 @@
 .subProductPage{
     margin-left: 60px;
 }
+.searchProduct{
+    width: 50%;
+    margin-left: 286px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}

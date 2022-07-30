@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { useParams } from 'react-router-dom'
+import Mycart from '../../Mycart/Mycart';
 import ProductJSON from "../Product.json";
 import './Single_product.css'
 
@@ -9,8 +10,8 @@ export default function Single_product() {
 
     const cartProduct=(product)=>{
       setCart(...cart,product)
-      console.log("product:",cart);
     }
+    console.log("product:",cart);
 
     const dataValue=useParams();
     // console.log("value through useparams:",dataValue);
@@ -23,7 +24,7 @@ export default function Single_product() {
       return dataValue.CompanyName===dataValue1.Company
     })
 
-    console.log("Value: ",pObj1);
+    // console.log("Value: ",pObj1);
 
   return (
     <div className="mainProductBackground">
@@ -37,6 +38,7 @@ export default function Single_product() {
         <p>{pObj1.Price}</p>
         <button className="buyNowBut">Buy Now</button>
         <button className="addToCartBut" onClick={()=>cartProduct(pObj1)}>Add To Cart</button>
+        <Mycart data={cart}/>
       </div>
     </div>
   )

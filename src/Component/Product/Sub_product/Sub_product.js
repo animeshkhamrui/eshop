@@ -18,9 +18,9 @@ export default function Sub_product() {
   return (
     <div className="subProductPage">
       <input type="text" placeholder="Type the product name here" 
-           onChange={(event)=>{setSearchText(event.target.value)}}/>
+           onChange={(event)=>{setSearchText(event.target.value)}} className="searchProduct"/>
       <Container>
-        <Row xxl={4} xl={3} Lg={3} md={3} sm={2}>
+        <Row xxl={4} xl={3} lg={3} md={3} sm={2}>
           {pObj.Sub_product.filter((Val)=>{
             if(searchText===""){
               return Val;

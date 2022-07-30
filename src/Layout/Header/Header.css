@@ -14,30 +14,31 @@
 .mynavimg{
     height: 50px;
     width: 80px;
-    margin-right: 55px;
 }
 .mynavDrop{
-    margin-right: 100px;
+    margin-right: 150px;
     margin-left: 100px;
     background-color: white;
     border-radius: 10px;
 }
-/* .mynavfor{
-    width: 50%;
-    margin-right: 35px;
-}
-.mynavforinp{
+.aboutbut{
+    margin-right: 50px;
+    background-color: white; 
+    border-style: none;  
     height: 30px;
-    width: 85%;
-    font-size: 15px;
-    border-style: none;
-    outline-style: none;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.mysearchbut{
+.contactbut{
+    margin-right: 50px;
+    background-color: white; 
     border-style: none;
-    background-color: white;
-    height: 30px;
-} */
+    height: 30px; 
+    border-radius: 15px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .logbut{
     border-radius: 15px;
     border-style: none;
@@ -45,12 +46,10 @@
     padding-right: 25px;
     height: 30px;
     margin-right: 60px;
-    margin-left: 35px;
-
 }
 .carbut{
-    background-color: rgb(187, 181, 189);
-    margin-left: 120px;
+    background-color: white;
+    margin-left: 70px;
     padding-left: 20px;
     padding-right: 20px;
     border-style: none;

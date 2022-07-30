@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-// import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Dropdown from "react-bootstrap/Dropdown";
 
 export default function Header() {
@@ -30,27 +28,20 @@ export default function Header() {
             <Dropdown.Item as={Link} to={`/sub_product/${product[8]}`}>Airpod</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        {/* <form className="mynavfor">
-          <input 
-            name="product"
-            className="mynavforinp"
-            type="text"
-            placeholder="search your product here and more"
-          />
-          <button type="submit" className="mysearchbut" ><SearchOutlinedIcon fontSize="small"/></button>
-        </form> */}
+        <Link to="/about">
+        <button className="aboutbut">About</button>
+        </Link>
+        <Link to="/contact">
+        <button className="contactbut">Contact</button>
+        </Link>
         <Link to="/login">
           <button className="logbut">Login</button>
         </Link>
-        <Link to="/about">
-        <button>About</button>
-        </Link>
-        <Link to="/contact">
-        <button>Contact</button>
-        </Link>
+        <Link to="/cart">
         <button className="carbut">
-          <ShoppingCartIcon />
+          My Cart
         </button>
+        </Link>
       </nav>
     </div>
   );

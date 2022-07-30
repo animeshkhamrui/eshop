@@ -2,16 +2,26 @@ import React from "react";
 import { useFormik } from "formik";
 import { useNavigate,Link } from "react-router-dom";
 import './Login.css'
+import Axios from 'axios'
 
 export default function Login() {
   const navigate=useNavigate();
   const formik = useFormik({
     initialValues: { email: "", password: "" },
     onSubmit: (value) => {
-      alert("value submitted");
       console.log("Submitted value: ", value);
-      navigate("/")
-    },
+      Axios.post('https://nodeprojectapi.herokuapp.com/login',value)
+      .then(result=>{
+        console.log("Axios resolve: ",result);
+        window.sessionStorage.setItem('TokenValue',result.data.token)
+        alert("login done")
+        navigate("/")
+      })
+      .catch(err=>{
+        console.log("Axios error: ",err);
+        navigate("/login")
+      })
+    }
   });
   return (
     <div className="background">

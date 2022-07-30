@@ -7,13 +7,13 @@
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.50);
 }
 .background1{
-    background-color: rgb(187, 181, 189);
+    background-color: rgb(167, 85, 243);
     float: left;
     width: 40%;
     height: 399.5px;
     padding-top: 20px;
     padding-left: 40px;
-    color: black;
+    color: white;
 }
 .background2{
     float: right;
